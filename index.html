@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutrition Blog | Eat Better, Live Better</title>
+    <meta
+      name="description"
+      content="Nutrition Blog Website with evidence-based tips, healthy recipes, and simple guidance to help you eat better and live better."
+    />
+    <meta property="og:title" content="Nutrition Blog | Eat Better, Live Better" />
+    <meta
+      property="og:description"
+      content="Discover simple, science-backed nutrition tips, healthy recipes, and wellness habits."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="logo">Nutrition<span>Blog</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <button
+            class="nav-toggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#articles">Latest Articles</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#subscribe">Subscribe</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <!-- Hero Section -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 id="hero-title">Eat Better, Live Better</h1>
+            <p>
+              Simple, science-backed nutrition tips and recipes to help you feel
+              energized, confident, and healthy—without extreme diets.
+            </p>
+            <button class="btn btn-primary js-scroll-to-subscribe">
+              Get weekly nutrition tips
+            </button>
+            <div class="hero-highlights" aria-label="Key focus areas">
+              <span>Balanced Meals</span>
+              <span>Healthy Habits</span>
+              <span>Evidence-Based</span>
+            </div>
+          </div>
+          <div class="hero-image" aria-hidden="true">
+            <div class="hero-plate">
+              <div class="hero-plate-inner">
+                <span class="hero-dot hero-dot--green"></span>
+                <span class="hero-dot hero-dot--orange"></span>
+                <span class="hero-dot hero-dot--yellow"></span>
+              </div>
+            </div>
+            <p class="hero-caption">Colorful plates, simple choices, better health.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="about-title">About Nutrition Blog</h2>
+            <p>
+              Nutrition Blog is your friendly guide to evidence-based eating. No
+              fads, no fear—just practical tips you can actually use, with
+              visuals that make healthy food feel simple and inspiring.
+            </p>
+          </header>
+          <div class="about-grid">
+            <article class="card about-card">
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+                  alt="Colorful bowl with fresh vegetables and grains"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Healthy Recipes</h3>
+              <p>
+                Quick, balanced meals with real ingredients—designed for busy
+                weekdays and lazy weekends alike.
+              </p>
+            </article>
+            <article class="card about-card">
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80"
+                  alt="Notebook, pen, and fresh produce used for meal planning"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Smart Planning</h3>
+              <p>
+                Simple frameworks for building plates, planning groceries, and
+                staying consistent without counting every calorie.
+              </p>
+            </article>
+            <article class="card about-card">
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80"
+                  alt="Person relaxing with a healthy drink and fruit"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Wellness & Habits</h3>
+              <p>
+                Small, sustainable changes that support better sleep, mood, and
+                long-term health—one habit at a time.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Articles Section -->
+      <section id="articles" class="section section-alt" aria-labelledby="articles-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="articles-title">Latest Articles</h2>
+            <p>
+              Explore our newest posts packed with practical, science-based
+              nutrition advice, each with a simple visual preview.
+            </p>
+          </header>
+          <div class="articles-grid">
+            <article class="card article-card">
+              <div class="article-image">
+                <img
+                  src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80"
+                  alt="High-protein breakfast with eggs, toast, and vegetables"
+                  loading="lazy"
+                />
+              </div>
+              <div class="article-tag">Breakfast</div>
+              <h3>5 High-Protein Breakfast Ideas</h3>
+              <p>
+                Start your day with balanced meals that keep you full and focused
+                through the morning rush.
+              </p>
+              <button class="btn btn-text js-read-more" data-article="protein-breakfast">
+                Read more
+              </button>
+            </article>
+
+            <article class="card article-card">
+              <div class="article-image">
+                <img
+                  src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=900&q=80"
+                  alt="Person reading a nutrition label on a food package"
+                  loading="lazy"
+                />
+              </div>
+              <div class="article-tag">Smart Shopping</div>
+              <h3>How to Read Nutrition Labels</h3>
+              <p>
+                Learn the key parts of a nutrition label so you can make confident,
+                informed choices at the store.
+              </p>
+              <button class="btn btn-text js-read-more" data-article="nutrition-labels">
+                Read more
+              </button>
+            </article>
+
+            <article class="card article-card">
+              <div class="article-image">
+                <img
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80"
+                  alt="Healthy snack plate with fruits, nuts, and vegetables"
+                  loading="lazy"
+                />
+              </div>
+              <div class="article-tag">Lifestyle</div>
+              <h3>Healthy Snacking in a Busy Day</h3>
+              <p>
+                Simple strategies to keep nourishing snacks on hand—without
+                derailing your schedule.
+              </p>
+              <button class="btn btn-text js-read-more" data-article="healthy-snacking">
+                Read more
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Tips Section -->
+      <section id="tips" class="section" aria-labelledby="tips-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="tips-title">Quick Daily Tips</h2>
+            <p>
+              Tiny changes that make a big difference when practiced
+              consistently.
+            </p>
+          </header>
+          <div class="tips-grid">
+            <article class="card tip-card">
+              <h3>Hydrate Early</h3>
+              <p>
+                Drink a glass of water first thing in the morning to gently wake
+                up your body and support digestion.
+              </p>
+            </article>
+            <article class="card tip-card">
+              <h3>Half Your Plate</h3>
+              <p>
+                Aim for half your plate to be colorful veggies at lunch and
+                dinner for fiber, vitamins, and volume.
+              </p>
+            </article>
+            <article class="card tip-card">
+              <h3>Snack with Intention</h3>
+              <p>
+                Pair a source of protein with fiber (like yogurt and berries) to
+                stay satisfied between meals.
+              </p>
+            </article>
+            <article class="card tip-card">
+              <h3>Read the Ingredients</h3>
+              <p>
+                Scan the ingredient list: shorter, familiar ingredients usually
+                mean less processing.
+              </p>
+            </article>
+            <article class="card tip-card">
+              <h3>Slow Down</h3>
+              <p>
+                Take a few extra minutes to chew and savor your food—your
+                fullness cues need time to catch up.
+              </p>
+            </article>
+            <article class="card tip-card">
+              <h3>Plan One Meal</h3>
+              <p>
+                If full meal prep feels overwhelming, start by planning just one
+                meal you’ll repeat during the week.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe / Contact Section -->
+      <section
+        id="subscribe"
+        class="section section-alt"
+        aria-labelledby="subscribe-title"
+      >
+        <div class="container">
+          <header class="section-header">
+            <h2 id="subscribe-title">Subscribe for Weekly Nutrition Tips</h2>
+            <p>
+              Join the newsletter to receive simple, practical advice you can put
+              into action each week.
+            </p>
+          </header>
+          <div class="subscribe-layout">
+            <form
+              id="subscribe-form"
+              class="subscribe-form"
+              novalidate
+              aria-describedby="subscribe-message"
+            >
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                />
+                <p class="field-error" data-for="name"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+                <p class="field-error" data-for="email"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="interest">Primary interest</label>
+                <select id="interest" name="interest" required>
+                  <option value="">Select one</option>
+                  <option value="healthy-recipes">Healthy recipes</option>
+                  <option value="weight-management">Weight management</option>
+                  <option value="meal-planning">Meal planning</option>
+                  <option value="general-wellness">General wellness</option>
+                </select>
+                <p class="field-error" data-for="interest"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="goal">Your nutrition goal (optional)</label>
+                <textarea
+                  id="goal"
+                  name="goal"
+                  rows="3"
+                  placeholder="E.g., Build more balanced meals, manage energy, support my workouts..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Subscribe now
+              </button>
+              <p id="subscribe-message" class="form-message" aria-live="polite"></p>
+            </form>
+
+            <aside class="subscribe-aside">
+              <h3>What you’ll get</h3>
+              <ul>
+                <li>1–2 emails per week, no spam.</li>
+                <li>Evidence-based nutrition breakdowns in plain language.</li>
+                <li>Healthy recipes and snack ideas you can save for later.</li>
+                <li>Simple habit prompts you can try that week.</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top" aria-label="Back to top">
+      ↑
+    </button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Nutrition Blog. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <span aria-hidden="true">•</span>
+          <a href="#subscribe">Subscribe</a>
+          <span aria-hidden="true">•</span>
+          <a href="#" aria-disabled="true">Privacy (coming soon)</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal for article previews -->
+    <div
+      class="modal"
+      id="article-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="article-modal-title"
+      aria-hidden="true"
+    >
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-dialog" role="document">
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close article preview"
+          data-close-modal
+        >
+          ×
+        </button>
+        <div class="modal-body">
+          <h2 id="article-modal-title">Article preview</h2>
+          <p id="article-modal-content">
+            Detailed article previews are coming soon. For now, enjoy a short
+            teaser of the content we’re preparing for you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
+
